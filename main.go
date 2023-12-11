@@ -95,9 +95,9 @@ func (v *Validator) Validate(avenger interface{}) error {
 func main() {
 	validator := Validator{}
 	member := BarudakAvengers{
-		Name:  "Iron Man",
-		Age:   26,
-		Email: "tony.stark@gmail.com",
+		Name:  "Udin bin Kratos Nirvana",
+		Age:   33,
+		Email: "udingacorslebew@gmail.com",
 	}
 
 	err := validator.Validate(member)
